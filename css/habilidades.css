@@ -1,0 +1,202 @@
+                                    /*?Habilidades*/
+
+
+.contenedor2{
+    width: 20rem;
+    margin: 0 auto;
+
+}
+@media (min-width:700px) {
+    .contenedor2{
+    width: 60rem;
+    margin: 0 auto;
+}
+    
+}
+.sombra2{
+    -webkit-box-shadow: 0px 5px 17px 0px rgba(0,0,0,0.68);
+    -moz-box-shadow: 0px 5px 17px 0px rgba(0,0,0,0.68);
+    box-shadow: 0px 5px 17px 0px rgba(0,0,0,0.68); 
+    background-color: #fff; 
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.h2p-2{
+    text-align: center;
+    font-weight: 800;
+    font-size: 2rem;
+    color: rgb(140, 191, 236);
+}
+
+/*?botones habilidades*/
+.btn{
+    padding: 2.5rem 7rem;
+    background: rgb(185, 212, 236);
+    border:0.1rem solid rgb(185, 212, 236);
+    cursor: pointer;
+    position: relative;
+    border-radius: .3rem;
+    overflow: hidden;
+    margin-top: 2rem;
+
+}
+.btn::before{
+    content: 'CSS';
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-weight: 700;
+    text-shadow: .1rem .1rem .1rem #333;
+    transition: .2s ease;
+
+}
+
+.btn::after{
+    content:"Html";
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-weight: 700;
+    text-shadow: .1rem .1rem .1rem #333;
+    transition: .2s ease;
+    opacity: 0;
+}
+.btn:hover::before{
+    transform: translate(-50%, -50%) scale(3);
+    opacity: 0;
+}
+
+.btn:hover::after{
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+/*bOTON2*/
+.btn2{
+    padding: 2.5rem 7rem;
+    background: rgb(185, 212, 236);
+    border:0.1rem solid rgb(185, 212, 236);
+    cursor: pointer;
+    position: relative;
+    border-radius: .3rem;
+    overflow: hidden;
+    margin-top: 2rem;
+
+}
+.btn2::before{
+    content: 'python';
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-weight: 700;
+    text-shadow: .1rem .1rem .1rem #333;
+    transition: .2s ease;
+}
+
+.btn2::after{
+    content:"java script";
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-weight: 700;
+    text-shadow: .1rem .1rem .1rem #333;
+    transition: .2s ease;
+    opacity: 0;
+}
+.btn2:hover::before{
+    transform: translate(-50%, -50%) scale(3);
+    opacity: 0;
+}
+
+.btn2:hover::after{
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+/*Boton3*/
+.btn3{
+    padding: 2.5rem 7rem;
+    background: rgb(185, 212, 236);
+    border:0.1rem solid rgb(185, 212, 236);
+    cursor: pointer;
+    position: relative;
+    border-radius: .3rem;
+    overflow: hidden;
+    margin-top: 2rem;
+
+}
+.btn3::before{
+    content: 'php';
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-weight: 700;
+    text-shadow: .1rem .1rem .1rem #333;
+    transition: .2s ease;
+}
+
+.btn3::after{
+    content:"my sql";
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-weight: 700;
+    text-shadow: .1rem .1rem .1rem #333;
+    transition: .2s ease;
+    opacity: 0;
+}
+.btn3:hover::before{
+    transform: translate(-50%, -50%) scale(3);
+    opacity: 0;
+}
+
+.btn3:hover::after{
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+
+}
+@media (min-width:700px) {
+    .botones{
+    margin-top: 1rem;
+    display: grid;
+    grid-auto-flow:column; /*?columna*/
+    gap: 3rem; /*?Espaciador*/
+}
+}
