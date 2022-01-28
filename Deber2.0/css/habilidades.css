@@ -1,0 +1,65 @@
+                                            /*?Habilidades*/
+
+.habilidades{
+    width: 100vw;
+    height: 50vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:700px) {
+    .habilidades{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    }
+
+}
+
+.h2-habilidades{
+    color: rgb(245, 91, 35);
+    font-size: 5em;
+    text-align: center;
+}
+@media (max-width:700px) {
+    .h2-habilidades{
+    color: rgb(245, 91, 35);
+    font-size: 4em;
+    text-align: center;
+}
+}
+
+
+.habilidades button{
+    background-color: transparent;
+    border: 4px solid;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: rgb(66, 122, 226);
+}
+
+button:focus{
+    outline: 0;
+}
+
+
+.btn_1{
+    border-color: rgb(143, 165, 136);
+    transition: box-shadow 0.5 ease-in-out;
+}
+.btn_1:hover{
+    box-shadow: 0 0 40px 40px  rgb(65, 99, 67) inset;
+    color: rgb(238, 235, 235);
+}
+
+                                  
+      

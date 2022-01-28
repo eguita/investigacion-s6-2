@@ -1,0 +1,79 @@
+/*?PERFIL*/
+                                            /*?Perfil*/
+
+
+                                            
+.x{
+    margin-bottom: 8rem;
+}                              
+.img2-perfil{
+    width: 180px;
+    transform: scaleX(-1);
+}
+@media (min-width:700px) {
+    .img2-perfil{
+    transform: scaleX(1);
+    }  
+}
+
+.div-perfil{
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: 300px ;
+    justify-content: center;
+}
+
+
+@media (min-width:700px) {
+    .div-perfil{
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    justify-content: space-evenly;
+}
+  
+}
+
+.div-img-perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.h1-perfil{
+    text-align: center;
+    margin-bottom: 3px;
+    font-size: 40px;
+    color: rgb(245, 91, 35);
+}
+
+.p-perfil{
+    font-weight: 10px;
+}
+
+.boton{
+    background-color: #7faff7;
+    color:#fff;
+    padding: .5rem .5rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 2rem;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+@media (min-width:700px) {
+    .boton{
+        width:50%;
+    }
+} 
+
