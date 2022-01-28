@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="./css/habilidades.css" />
     <link rel="stylesheet" href="./css/navegacion.css" />
     <link rel="stylesheet" href="./css/perfil.css" />
+    <script defer src="./js/js.js" type="module"></script>
+
 </head>
 <body>
     <header class="header">
@@ -152,6 +154,8 @@
                 <button id="cursos" class="btn_1">PHP</button>
             </div >
         </div>
+
+
         <!--?Cursos-->
         <h2 class="h2-cursos" >Cursos</h2>
         <section class="container">
@@ -186,8 +190,9 @@
         <div class="separador-cursos" id="contacto">
         </div>
                                         <!--?Formulario-->
-        <article class="form-container grid-form contenedor4 sombra4" >
 
+        <div class="contenedor4 sombra4 " id="formularioid">
+        <form action="" method="POST" id="form" class="grid-form">
             <div class="form-div1">
                 <h2 class="contacto-h2">Contacto</h2>
                 <h3 class="ti-h3">Direccion</h3>
@@ -195,54 +200,34 @@
                 <h3 class="ti-h3">Email</h3>
                 <p class="form-p">edgui-vm@hotmail.com</p>
                 <p class="form-p">Deje su mensaje y con gusto repondere</p>
-                <p class="form-p">😀😝🤡🧐</p>
             </div>
 
-            <div action="" id="user-form" class="form">
-                <div class="form-group">
-                    <label for="nombre">Nombre</label>
-                    <input 
-                        type="text" 
-                        name="nombre" 
-                        id="nombre" 
-                        placeholder="Escribe tu nombre" 
-                        title="El nombre solo acepta letras"
-                        pattern="^[A-Za-zÑñáéíóú\s]+$"
-                        required
-                    />
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email"
-                    name="emails"
-                    id="email"
-                    placeholder="Ingrese el email"
-                    title="Email incorrecto"
-                    required>
+            <div class="form">
+                <h2>Usuario</h2>
+                
+                <div class="grupo">
+                    <input type="text" name="" id="name" ><span class="barra"></span>
+                    <label for="">Nombre</label>
                 </div>
 
-                <div class="form-group">
-                    <label for="surgerencia">Mensaje</label>
-                    <textarea
-                    name="surgerencias"
-                    for="surgerencia"
-                    id="surgerencia"
-                    rows="3"
-                    placeholder="Enviar un mensaje"
-                    data-pattern="^.{1,200}$"
-                    required
-                    ></textarea>
+                <div class="grupo">
+                    <input type="email" name="" id="email" ><span class="barra"></span>
+                    <label for="">Email</label>
                 </div>
 
-                <button
-                class="boton-form"
-                id="enviar"
-                type="submit"
-                name="enviar"
-                value="Enviar datos">Enviar</button>
+                
+
+                <div class="grupo">
+                    <input type="text" name="" id="textarea" ><span class="barra"></span>
+                    <label>Mensajes</label>
+                    <textarea class="input-text"></textarea>
+                </div>
+            
+                <button type="submit">Enviar</button>
+                <p class="warnings" id="warnings"></p>
             </div>
-        </article>
-
+        </form>
+      
 
     </main>
 </body>
