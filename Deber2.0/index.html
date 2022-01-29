@@ -7,11 +7,13 @@
     <title>Edgar Villavicencio</title>
     <link rel="stylesheet" href="./css/cursos.css" />
     <link rel="stylesheet" href="./css/experiencia.css" />
-    <link rel="stylesheet" href="./css/formulario.css" />
+    <link rel="stylesheet" href="./css/formulario2.css" />
     <link rel="stylesheet" href="./css/habilidades.css" />
     <link rel="stylesheet" href="./css/navegacion.css" />
     <link rel="stylesheet" href="./css/perfil.css" />
-    <script defer src="./js/js.js" type="module"></script>
+    <link rel="stylesheet" href="css/modal.css">
+
+    <script defer src="js/modal.js"></script>
 
 </head>
 <body>
@@ -64,83 +66,49 @@
     </div>
 
                                                 <!--?Experiencia-->
-    <main id="experiencia">
-        <div class="experiencia" id="experiencia-nav">
-            <div class="wave1" overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #414c5f;"></path></svg></div>
+    
+    <section class="experiencia" id="experiencia">
+      <img src="assets/wave.svg" alt="división" class="wave">
+      <div class="experiencia-principal">
+        <h2 class="titulo-exp">Experiencia</h2>
+        <div class="experiencia-grid">
+          <div class="empty"></div>
+          <div class="line"></div>
 
-            <section class="fondo-exp" >
-                <h2 class="h2-exp">Mi experiencia</h2>
+          <div class="experience">
+            <div class="exp-datos">2021-2022</div>
+            <div class="exp-inf">LaVid Point</div>
+            <div class="exp-inf2">Software Engineer</div>
+            <div class="exp-descripcion">
+              Desarrollo De pagina web de un restaurante en donde se mostraba un menu de navegacion, informacion,menu, botones y secciones utilizando Flexbox Y Grid.
+            </div>
+          </div>
 
-                <div class="exp-grid">
-                    
-                    <section>
-                        <!--Vacio-->
-                    </section>
-
-                    <section>
-                         <img class="flecha" src="/img/flecha12.png" alt="">
-                    </section>
-
-                    <div class="contenedor3 sombra3 " >
-                    <section class="exp1" >
-                        <h3>2021-2022</h3>
-                        <h4>Proyecto</h4>
-                        <p class="exp-p">Software Engineer <br>
-                            Desarrollo De pagina web de un <br>
-                            restaurante en donde se mostraba<br>
-                            un menu de navegacion, informacion<br>
-                            ,menu, botones y secciones utilizando<br>
-                            Flexbox Y Grid.
-                        </p>
-                    </section>
-                    </div>
-
-
-                    <div class="contenedor3 sombra3 " >
-                    <section class="exp1 exp-medio">
-                        <h3>2021-2022</h3>
-                        <h4>Proyecto</h4>
-                        <p class="exp-p">Software Engineer <br>
-                        Desarrollo De pagina web sencilla <br>
-                        De servicios que ofrecian en un local
-                        </p>
-                    </section>
-                    </div>
-
-                    <section>
-                        <img class="flecha" src="/img/flecha12.png" alt="">
-                       <!--Vacio-->
-                   </section>
-
-                    <section>
-                        <!--vacio-->
-                    </section>
-
-
-                    <section>
-                        <!--Vacio-->
-                    </section>
-
-                    <section>
-                        <img class="flecha" src="/img/flecha12.png" alt="">
-                    </section>
-
-                    <div class="contenedor3 sombra3 " >
-                    <section class="exp1" >
-                        <h3>2021-2022</h3>
-                        <h4>Proyecto</h4>
-                        <p class="exp-p1">Software Engineer <br>
-                            Desarrollo De portafolios con Css , Grid<br>
-                            Flexbox,HTML y JavaScript
-                        </p>
-                    </section>
-                    </div>
-
-                </div>
-            </section>
-            <div class="wave2" overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C111.17,180.11 302.48,-4.42 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #414c5f;"></path></svg></div>
-
+          <div class="experience experience_left">
+            <div class="exp-datos">2021-2022</div>
+            <div class="exp-inf">Proyecto</div>
+            <div class="exp-inf2">Software Engineer</div>
+            <div class="exp-descripcion">
+            Desarrollo De pagina web local sencilla De servicios que ofrecian en un restaurante
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="empty"></div>
+          <div class="empty"></div>
+          <div class="line"></div>
+          <div class="experience">
+            <div class="exp-datos">2021-2022</div>
+            <div class="exp-inf">proyecto</div>
+            <div class="exp-inf2">Software Engineer</div>
+            <div class="exp-descripcion">
+              Desarrollo De portafolios con Css , Grid , Flexbox,HTML y JavaScript
+            </div>
+          </div>
         </div>
+      </div>
+      <img src="assets/wave.svg" alt="división" class="wave wave-inf">
+    </section>
+        
                         <!--?Habilidades-->
 
         <div class="div-hab" id="habilidades">    
@@ -190,45 +158,56 @@
         <div class="separador-cursos" id="contacto">
         </div>
                                         <!--?Formulario-->
+    
 
-        <div class="contenedor4 sombra4 " id="formularioid">
-        <form action="" method="POST" id="form" class="grid-form">
-            <div class="form-div1">
-                <h2 class="contacto-h2">Contacto</h2>
-                <h3 class="ti-h3">Direccion</h3>
-                <p class="form-p">Milagro, Ecuador</p>
-                <h3 class="ti-h3">Email</h3>
-                <p class="form-p">edgui-vm@hotmail.com</p>
-                <p class="form-p">Deje su mensaje y con gusto repondere</p>
+        <section class="formulario-cont" >
+            <div class="contenido-p">
+                <div class="left box">
+                    <h1 class="titulo-form">Contactanos 👇🏼</h1>
+                    <div class="content">
+                        <ul class="contacto">
+                            <li class="datos-form">Direccion:</li>
+                            <li class="datos-form">Milagro-Guayas-Ecuador</li>
+                            <li class="datos-form">Email:</li>
+                            <li class="datos-form">Edgui-vm@hotmail.com</li>
+                            <li class="datos-form"><p>Deje su mensaje y con gusto le respondere.</p></li>
+                            <li class="datos-form"><p>😜😎🤡🤠🧐</p></li>  
+                        </ul>
+                    </div>
             </div>
+            <div class="dere box">
+                <div class="contentenido-form">
+                    <form action="#" id="encuesta">
 
-            <div class="form">
-                <h2>Usuario</h2>
-                
-                <div class="grupo">
-                    <input type="text" name="" id="name" ><span class="barra"></span>
-                    <label for="">Nombre</label>
+                        <div class="name">
+                            <div class="texto">Nombre</div>
+                            <input type="text" id="nombre" class="formcontrol" placeholder="Nombre" title="El nombre solo acepta letras" pattern="^[A-Za-zÑñáéíóú\s]+$" required>
+                        </div>
+
+                        <div class="email">
+                            <div class="texto">Email </div>
+                            <input type="email" id="email" class="formcontrol" placeholder="Email" title="Email ingresado es incorrecto" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+                        </div>
+
+                        <div class="msg">
+                            <div class="texto">Mensaje </div>
+                            <textarea name="" id="comentario" cols="30" rows="10" class="formcontrol" placeholder="Envianos tu mensaje" title="tu comentario no debe exceder de 255 caracteres" data-pattern="^.{2,255}$" required></textarea>
+                        </div>
+
+                        <div class="btn">
+                            <button type="submit" id="enviar" class="btnsubmit">Enviar</button>
+                        </div>
+                    </form>
                 </div>
-
-                <div class="grupo">
-                    <input type="email" name="" id="email" ><span class="barra"></span>
-                    <label for="">Email</label>
-                </div>
-
-                
-
-                <div class="grupo">
-                    <input type="text" name="" id="textarea" ><span class="barra"></span>
-                    <label>Mensajes</label>
-                    <textarea class="input-text"></textarea>
-                </div>
-            
-                <button type="submit">Enviar</button>
-                <p class="warnings" id="warnings"></p>
             </div>
-        </form>
-      
-
+            </div>
+        </section>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div class="saludos" id="saludos">
+                </div>
+            </div>
+        </div>
     </main>
 </body>
 </html>

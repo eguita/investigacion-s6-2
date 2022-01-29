@@ -1,0 +1,96 @@
+/*?css
+html*/
+
+.formulario-cont{
+    background-color: #346875;
+    margin: 25px 25px;
+    border-radius: 30px;
+}
+.contacto{
+    font-size: 25px;
+    margin-left: 50px;
+    list-style-type: none;
+    color: #ffffff;
+}
+.titulo-form{
+    font-size: 25px;
+    margin-left: 50px;
+    color: #ffffff;
+    text-align: center;
+
+}
+.datos-form{
+    margin-top: 20px;
+}
+/**/
+.contenido-p{
+  display: flex;
+}
+.contenido-p .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box h2{
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.box .contentenido-form{
+  margin: 20px 0 0 0;
+  position: relative;
+}
+
+
+.center .contentenido-form .texto{
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.dere form .texto{
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  color: #ffffff;
+}
+.dere form .msg{
+  margin-top: 10px;
+}
+.dere form input, .dere form textarea{
+  width: 100%;
+  font-size: 1.0625rem;
+  background: #ffffff;
+  border: 1px solid #222222;
+}
+
+.dere form input{
+  height: 35px;
+}
+.dere form .btn{
+  margin-top: 10px;
+}
+.dere form .btn button{
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: orange;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
+}
+
+
+
+@media screen and (max-width: 700px) {
+  footer{
+    position: relative;
+    bottom: 0px;
+  }
+  .contenido-p{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .contenido-p .box{
+    margin: 5px 0;
+  }
+}
